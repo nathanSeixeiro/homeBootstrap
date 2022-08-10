@@ -23,9 +23,13 @@
 }
 
 /* ========= NAVBAR ======== */
-
+/* 
 #navbar{
     border-bottom: 1px solid #050505;
+} */
+
+#navbar a{
+  color: #585757;
 }
 
 #navbar a:hover{
@@ -33,29 +37,122 @@
 }
 
 #navbar .active {
-    border-bottom: 1px solid #050505;
+    border-bottom: 1px solid #383737;
+}
+  
+.navbar-brand {
+  display: flex;
+}
+  
+.navbar-brand img {
+  width: 50px;
+}
+  
+.navbar-brand span {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+  
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+  
+#navbar-items .nav-item {
+  margin: 0 1em;
+}
+
+/* ============ slider ============== */
+
+#slider{
+  margin-top: 8em;
+  margin-bottom: 1em;
+}
+
+#slider .carousel-caption{
+  bottom: 3em;
+}
+
+
+#slider .carousel-caption h5{
+  font-size: 2.5em;
+  text-shadow: #000 2px 2px;
+}
+
+.btn{
+  border-radius: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  opacity: 0.7;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i{
+  color: #111;
+  font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: #222;
+  opacity: 0.8;
+}
+
+.carousel-indicators .active{
+  background-color: #000;
+}
+
+@media (min-width: 768px) {
+  #slider .carousel-caption{
+    bottom: 15em;
   }
   
-  .navbar-brand {
-    display: flex;
+  #slider .carousel-caption h5{
+    font-size: 4em;
+    text-shadow: #000 2px 3px;
+  }
+
+  #slider .btn{
+    padding: 0.6em 1.6em;
+    font-size: 1.2em;
+    margin-top: 1em;
   }
   
-  .navbar-brand img {
-    width: 40px;
+  .carousel-indicators{
+    bottom: 7em;
   }
-  
-  .navbar-brand span {
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-left: 0.5em;
+}
+
+/* acertando mini banners */
+
+#mini-banners{
+  margin-bottom: 4em;
+}
+
+#mini-banners .card{
+  padding: 2em 0.3em;
+  border-radius: 0;
+  margin-bottom: 1em;
+}
+
+#mini-banners i{
+  font-size: 4em;
+}
+
+#mini-banners .card-title{
+  margin-bottom: 1.5em;
+}
+
+#mini-banners .btn{
+  margin-top: 1.5em;
+  padding: 0.6em 1.2em;
+}
+
+@media (min-width: 768px) {
+  #mini-banners{
+    margin-top: -6em;
   }
-  
-  #navbar-items .navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  #navbar-items .nav-item {
-    margin: 0 1em;
-  }
+}
