@@ -97,21 +97,18 @@
 }
 
 .carousel-indicators [data-bs-target]{
-<<<<<<< HEAD
   background-color: rgba(34, 34, 34, 0.651);
   opacity: 0.9;
 }
 
 .carousel-indicators .active{
   background-color: #fff;
-=======
   background-color: #222;
   opacity: 0.8;
 }
 
 .carousel-indicators .active{
   background-color: #000;
->>>>>>> 6f03a3c564d1317f203cf7160615f863436567e9
 }
 
 @media (min-width: 768px) {
@@ -161,10 +158,10 @@
 }
 
 @media (min-width: 768px) {
+  
   #mini-banners{
     margin-top: -6em;
   }
-<<<<<<< HEAD
 }
 
 /* projetos em destaque */
@@ -227,6 +224,5 @@
   #featured-images .banner-content{
     opacity: 0;
   }
-=======
->>>>>>> 6f03a3c564d1317f203cf7160615f863436567e9
+
 }
